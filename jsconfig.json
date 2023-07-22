@@ -3,14 +3,7 @@
     "jsx": "react",
     "baseUrl": "./src",
     "paths": {
-      "assets": ["assets/*"],
-      "services": ["services/*"],
-      "pages": ["pages/*"],
-      "components": ["components/*"],
-      "helpers": ["helpers/*"],
-      "constants": ["constants/*"],
-      "environment": ["environment/*"]
-
+      "store": ["store/*"]
     }
   },
   "exclude": ["node_modules"]
