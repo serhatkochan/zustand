@@ -5,14 +5,14 @@ import {useEffect} from "react";
 
 function App() {
     // const todos = useTodosStore((state) => state.todos);
-    // const removeTodo = useTodosStore((state) => state.removeTodo);
+    // const removeTodo = useTodosStore((state) => state.removeTodo); // memeroize
 
     const {todos, removeTodo, fetchTodos, deleteEverything} = useTodosStore((state) => ({
         todos: state.todos,
         removeTodo: state.removeTodo,
         fetchTodos: state.fetchTodos,
         deleteEverything: state.deleteEverything
-    }), shallow)
+    }), shallow) // memorize
 
     useEffect(() => {
         // fetchTodos();
