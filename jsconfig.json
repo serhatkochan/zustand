@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": "./src",
+    "paths": {
+      "assets": ["assets/*"],
+      "services": ["services/*"],
+      "pages": ["pages/*"],
+      "components": ["components/*"],
+      "helpers": ["helpers/*"],
+      "constants": ["constants/*"],
+      "environment": ["environment/*"]
+
+    }
+  },
+  "exclude": ["node_modules"]
+}
